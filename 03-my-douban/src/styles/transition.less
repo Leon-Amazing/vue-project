@@ -1,0 +1,18 @@
+.left-enter, right-leave-to {
+  opacity: 0;
+  transform: translateX(-100%);
+}
+
+.left-enter-to, .left-leave, .right-enter-to, .right-leave {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.left-leave-to, .right-enter {
+  opacity: 0;
+  transform: translateX(100%);
+}
+
+.left-enter-active, .left-leave-active, .right-enter-active, .right-leave-active {
+  transition: all .5s;
+}
